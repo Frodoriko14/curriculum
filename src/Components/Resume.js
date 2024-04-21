@@ -30,7 +30,7 @@ class Resume extends Component {
         return <li key={skills.name}><span style={{width:skills.level}} className={className}></span><em>{skills.name}</em></li>
       })
 
-      var languages = this.props.data.skills.sort(compare).map(function(languages){
+      var languages = this.props.data.languages.sort(compare).map(function(languages){
         var className = 'bar-expand '+languages.name.toLowerCase();
         return <li key={languages.name}><span style={{width:languages.level}} className={className}></span><em>{languages.name}</em></li>
       })
