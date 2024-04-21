@@ -108,16 +108,7 @@ class Resume extends Component {
         <div className="nine columns main-col">
 
           <p>{scoresmessage}</p>
-          /* <p>
-            <i className="fa fa-star fa-flip-vertical" style={
-                {
-                        color:"yellow",
-                        fontSize: "2.5em"
-                }
-              } aria-hidden="true"></i> 
-            <em> stands for With Honors</em>
 
-          </p> */
           <div className="bars">
               <ul className="skills">
                 {scores}
