@@ -108,7 +108,7 @@ class Resume extends Component {
         <div className="nine columns main-col">
 
           <p>{scoresmessage}</p>
-          <p>
+          <!-- <p>
             <i className="fa fa-star fa-flip-vertical" style={
                 {
                         color:"yellow",
@@ -117,7 +117,7 @@ class Resume extends Component {
               } aria-hidden="true"></i> 
             <em> stands for With Honors</em>
 
-          </p>
+          </p> -->
           <div className="bars">
               <ul className="skills">
                 {scores}
